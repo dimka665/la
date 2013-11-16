@@ -1,0 +1,11 @@
+mkdir la
+cd la
+git init
+vi README.md
+git add REAMDE.md
+git status
+git commit -m 'Initial commit'
+git log
+git remote add origin git@github.com:dimka665/la.git
+git push -u origin master
+history 
