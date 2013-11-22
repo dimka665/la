@@ -1,0 +1,3 @@
+ps ax | egrep '\s\[.+\]$'
+ps ax | fgrep [
+ps o pid,user,comm -t -
