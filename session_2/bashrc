@@ -1,13 +1,14 @@
 # Run in ~/.bashrc to enable
 
 # Git shortcuts
-alias gd='git diff';
-alias gs='git status';
-alias ga='git add';
-alias gc='git commit';
+alias gd='git diff'
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gl='git log --oneline'
 
 # Clean Python compiled files and swaps
-alias clean='rm -f *.pyc *.swp';
+alias clean='rm -f *.pyc *.swp'
 
 # Go to working directory
-alias cdw='cd ~/la';
+alias cdw='cd ~/la'
