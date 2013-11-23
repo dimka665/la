@@ -1,4 +1,9 @@
-# Run in ~/.bashrc to enable
+# To enable this aliases add the following line
+# into your bash configuration file (~/.bashrc):
+#
+# source path-to-this-file
+#  --or--
+# . path-to-this-file
 
 # Git shortcuts
 alias gd='git diff'
