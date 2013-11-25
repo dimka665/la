@@ -9,3 +9,4 @@ This repo contains completed exercises of Linux administration block
 1. Add main commands list
 1. [Task 1](https://github.com/aguzikova/la/blob/master/sessions/s1) is done
 1. [Task 2](https://github.com/aguzikova/la/blob/master/sessions/s2) is done
+1. [Task 3](https://github.com/aguzikova/la/blob/master/sessions/s3) is done
