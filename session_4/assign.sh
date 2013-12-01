@@ -11,17 +11,18 @@ Script does by order:
 - Print workers list and work table files names to screen
 comment-block
 
+# import workers_list, work_table
 source settings.conf
 workers_list=${workers_list-workers.lst}
 work_table=${work_table-work.table}
 
 # sort names and write to workers list file with format:
 # [line-number] name [name-length]
-cat names | sort | awk '$0 = "["NR"] " $0 " ["length"]"' > "$workers_list"
+sort names | awk '$0 = "["NR"] " $0 " ["length"]"' > "$workers_list"
 
 # replace spaces to underscore in tasks and print
 echo "Current tasks:"
-cat tasks | sed 's/\s\+/_/g'
+sed 's/\s\+/_/g' tasks
 
 # save stdout in 6 and redirect to file
 exec 6<&1 >"$work_table"
